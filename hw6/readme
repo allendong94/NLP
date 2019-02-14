@@ -1,0 +1,7 @@
+//author: Hang Dong
+//fall 2018 cs544 hw6
+//to test the result, you can run as follow:
+//for the pyhton script evaluation:
+python main.py -e data/twitter_test.ner
+//for the CONLL evaluation:
+data/conlleval.pl -d nnt < twitter_test.ner.pred

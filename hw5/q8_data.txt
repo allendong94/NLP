@@ -1,0 +1,8 @@
+: game
+football feet basketball hands
+baseball hands football feet
+basketball ball game computer
+: position
+professor teachers graduate students
+doctor treat teacher education
+army troops battle fight

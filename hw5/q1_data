@@ -1,0 +1,4 @@
+file nytcounts.university_cat_dog has contexts for 3 words
+Cosine similarity between cat and dog 0.966891672715
+Cosine similarity between cat and university 0.660442421144
+Cosine similarity between university and dog 0.659230248969

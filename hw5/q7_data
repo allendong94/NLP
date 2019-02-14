@@ -1,0 +1,23 @@
+capital: 0.083 0.583 0.75
+currency: 0.1 0.1 0.1
+city-in-state: 0.333 0.611 0.833
+family: 0.705 0.91 0.968
+adjective-to-adverb: 0.011 0.122 0.222
+comparative: 0.533 0.762 0.8
+superlative: 0.429 0.762 0.81
+nationality-adjective: 0.453 0.744 0.872
+
+: currency
+brazil real canada dollar
+: city-in-state
+houston texas philadelphia pennsylvania
+: family
+boy girl brother sister
+: adjective-to-adverb
+complete completely most mostly
+: comparative
+bad worse big bigger
+: superlative
+bad worst big biggest
+: nationality-adjective
+china chinese england english

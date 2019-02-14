@@ -1,0 +1,32 @@
+### evaluation of data/twitter_dev_test.ner; writing to ./twitter_dev_test.ner.pred
+Token-wise accuracy 91.71383091616555
+Token-wise F1 (macro) 23.453308318796914
+Token-wise F1 (micro) 91.71383091616555
+Sentence-wise accuracy 52.204836415362735
+               precision    recall  f1-score   support
+
+    B-company       0.67      0.09      0.16       109
+   B-facility       0.57      0.43      0.49        46
+    B-geo-loc       0.73      0.55      0.63       159
+      B-movie       0.00      0.00      0.00         4
+B-musicartist       0.00      0.00      0.00        33
+      B-other       0.06      0.01      0.01       118
+     B-person       0.35      0.47      0.40        96
+    B-product       0.12      0.02      0.04        44
+ B-sportsteam       0.25      0.06      0.10        31
+     B-tvshow       0.00      0.00      0.00         4
+    I-company       0.50      0.08      0.13        26
+   I-facility       0.59      0.33      0.43        60
+    I-geo-loc       0.77      0.54      0.63        37
+      I-movie       0.00      0.00      0.00        10
+I-musicartist       0.00      0.00      0.00        15
+      I-other       0.14      0.02      0.03       123
+     I-person       0.44      0.57      0.50        58
+    I-product       0.00      0.00      0.00        88
+ I-sportsteam       0.38      0.43      0.40         7
+     I-tvshow       0.00      0.00      0.00         9
+            O       0.94      0.99      0.96     10231
+
+    micro avg       0.92      0.92      0.92     11308
+    macro avg       0.31      0.22      0.23     11308
+ weighted avg       0.88      0.92      0.89     11308

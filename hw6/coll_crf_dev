@@ -1,0 +1,13 @@
+guest-wireless-207-151-058-169:donghang@usc hangdong$ data/conlleval.pl -d \\t < 3_crf/twitter_dev.ner.pred
+processed 11537 tokens with 373 phrases; found: 200 phrases; correct: 125.
+accuracy:  96.07%; precision:  62.50%; recall:  33.51%; FB1:  43.63
+          company: precision:  87.50%; recall:  38.89%; FB1:  53.85  16
+         facility: precision:  57.14%; recall:  42.86%; FB1:  48.98  21
+          geo-loc: precision:  73.81%; recall:  40.26%; FB1:  52.10  42
+            movie: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      musicartist: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+            other: precision:  58.82%; recall:  15.87%; FB1:  25.00  17
+           person: precision:  58.70%; recall:  50.00%; FB1:  54.00  92
+          product: precision:  50.00%; recall:  15.79%; FB1:  24.00  6
+       sportsteam: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+           tvshow: precision:  50.00%; recall:   9.09%; FB1:  15.38  2

@@ -1,0 +1,32 @@
+### Train evaluation; writing to ./twitter_train.ner.pred
+Token-wise accuracy 98.19077064010077
+Token-wise F1 (macro) 74.45432188229513
+Token-wise F1 (micro) 98.19077064010077
+Sentence-wise accuracy 80.43237250554324
+               precision    recall  f1-score   support
+
+    B-company       0.99      0.66      0.79       135
+   B-facility       0.98      0.66      0.79        76
+    B-geo-loc       0.97      0.78      0.86       199
+      B-movie       1.00      0.56      0.71        27
+B-musicartist       1.00      0.45      0.62        42
+      B-other       0.97      0.56      0.71       162
+     B-person       0.95      0.81      0.87       341
+    B-product       1.00      0.51      0.68        78
+ B-sportsteam       1.00      0.47      0.64        40
+     B-tvshow       1.00      0.30      0.47        23
+    I-company       1.00      0.79      0.88        29
+   I-facility       1.00      0.64      0.78        76
+    I-geo-loc       1.00      0.66      0.79        35
+      I-movie       1.00      0.49      0.65        35
+I-musicartist       1.00      0.43      0.61        46
+      I-other       0.96      0.59      0.73       239
+     I-person       1.00      0.86      0.93       154
+    I-product       1.00      0.45      0.62        64
+ I-sportsteam       1.00      0.74      0.85        19
+     I-tvshow       1.00      0.48      0.65        21
+            O       0.98      1.00      0.99     33091
+
+    micro avg       0.98      0.98      0.98     34932
+    macro avg       0.99      0.61      0.74     34932
+ weighted avg       0.98      0.98      0.98     34932
